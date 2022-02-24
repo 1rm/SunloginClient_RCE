@@ -19,3 +19,11 @@ optional arguments:
   -p PORT     指定端口或指定扫描端口，默认40000-60000
   -e          使用EXP
 ```
+
+### 端口检测
+##### 默认40000-60000，范围可以使用-p参数指定
+![](https://github.com/1rm/SunloginClient_RCE/blob/main/images/PocScan.png)
+
+### 命令执行
+##### 加上-p指定漏洞端口后使用-e参数来进入命令执行模式
+![](https://github.com/1rm/SunloginClient_RCE/blob/main/images/EXP.png)
