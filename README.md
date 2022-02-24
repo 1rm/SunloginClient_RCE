@@ -17,7 +17,7 @@ optional arguments:
   -h, --help  show this help message and exit
   -u HOST     指定ip
   -p PORT     指定端口或指定扫描端口，默认40000-60000
-  -e          使用EXP
+  -e          使用命令模式
 ```
 
 ### 🔆端口检测
