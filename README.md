@@ -4,3 +4,16 @@
 
 ### 脚本说明
 脚本端口扫描使用nmap模块进行扫描，速度可能没有多线程的快（但省事🙆‍♂️）
+
+### 使用说明
+```
+usage: main.py [-h] [-u HOST] [-p PORT] [-e]
+
+python3 main.py -h 127.0.0.1
+
+optional arguments:
+  -h, --help  show this help message and exit
+  -u HOST     指定ip
+  -p PORT     指定端口或指定扫描端口，默认40000-60000
+  -e          使用EXP
+```
